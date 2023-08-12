@@ -17,14 +17,14 @@ while(s <= e){
     }
 
     mid = s + (e-s)/2;
-
     }
+    return 0;
 }
 
 int main(){
     int arr[] = {2,3,4,5,6,7,9,10,14,56,76,98};
     int n = sizeof(arr)/sizeof(int);
-    int key = 2;
+    int key = 9;
 
     int s = 0;
     int e = n - 1;
