@@ -9,7 +9,7 @@ pipeline{
 
         stage("Build") {
             steps {
-                git git(
+                git(
                     url: "https://Lyghtjr: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@github.com/Lyghtjr/DSA.git",
                     branch: "main",
                     credentialsId: "lyghtjr1530",
