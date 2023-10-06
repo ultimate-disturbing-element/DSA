@@ -11,7 +11,7 @@ pipeline{
             steps {
                 git git(
                     url: "https://Lyghtjr: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@github.com/Lyghtjr/DSA.git",
-                    branch: "*/main",
+                    branch: "main",
                     credentialsId: "lyghtjr1530",
                     changelog: true,
                     poll: true
@@ -27,7 +27,7 @@ pipeline{
 
         stage("Determine new version") {
             when {
-                branch "master"
+                branch "main"
             }
 
             steps {
