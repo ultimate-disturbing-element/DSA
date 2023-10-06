@@ -1,5 +1,6 @@
 pipeline{
     agent any 
+    stages{
      stage("Prepare") {
             steps {
                 echo "INPROGRESS"
@@ -27,4 +28,5 @@ pipeline{
                 echo "New Version"
             }
         }
+    }
 }
